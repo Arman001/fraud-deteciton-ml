@@ -29,7 +29,7 @@ Fraud detection in financial transactions is critical for security and risk mana
 | Model                | Accuracy | Precision | Recall  | F1-Score | ROC AUC  | Training Time (GPU) | Training Time (CPU) |
 |----------------------|----------|-----------|---------|----------|----------|----------------------|----------------------|
 | Logistic Regression  | 0.964854 | 0.977061  | 0.952060| 0.964399 | 0.993506 | 3.04 seconds         | 3.80 seconds         | 
-| Random Forest        | 0.999543 | 0.999420  | 0.999666| 0.999543 | 0.999962 | 2.42 seconds         | 711.89 seconds       | 
+| **Random Forest**      |**0.999543** | **0.999420**  | **0.999666**| **0.999543** | **0.999962** | **2.42 seconds**        | **711.89 seconds**       | 
 | SVM (Linear Kernel)  | 0.965584 | 0.978527  | 0.952060| 0.965112 | 0.993143 | 58.29 seconds        | ---                  |
 | SVM (RBF Kernel)     | 0.965584 | 0.978527  | 0.952060| 0.965112 | 0.999780 | 14.54 seconds        | ---                  |
 
